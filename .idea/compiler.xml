@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sc04-orderservice" />
+        <module name="sc02-itemservice" />
+        <module name="sc08-hystrix-dashboard" />
+        <module name="sc03-userservice" />
+        <module name="sc05-eureka" />
+        <module name="sc01-commons" />
+        <module name="sc09-feign" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sc06-ribbon" target="1.8" />
+      <module name="sc07-hystrix" target="1.8" />
+      <module name="sc10-turbine" target="1.8" />
+      <module name="sc11-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sc02-itemservice" options="-parameters" />
+      <module name="sc03-userservice" options="-parameters" />
+      <module name="sc04-orderservice" options="-parameters" />
+      <module name="sc05-eureka" options="-parameters" />
+      <module name="sc06-ribbon" options="-parameters" />
+      <module name="sc07-hystrix" options="-parameters" />
+      <module name="sc08-hystrix-dashboard" options="-parameters" />
+      <module name="sc09-feign" options="-parameters" />
+      <module name="sc10-turbine" options="-parameters" />
+      <module name="sc11-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
