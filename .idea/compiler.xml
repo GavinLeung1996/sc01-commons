@@ -6,20 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sc04-orderservice" />
-        <module name="sc02-itemservice" />
         <module name="sc08-hystrix-dashboard" />
+        <module name="sc12-config" />
         <module name="sc03-userservice" />
         <module name="sc05-eureka" />
         <module name="sc01-commons" />
+        <module name="sc02-itemservice" />
         <module name="sc09-feign" />
+        <module name="sc11-zuul" />
+        <module name="sc04-orderservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="sc06-ribbon" target="1.8" />
       <module name="sc07-hystrix" target="1.8" />
       <module name="sc10-turbine" target="1.8" />
-      <module name="sc11-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -34,6 +35,7 @@
       <module name="sc09-feign" options="-parameters" />
       <module name="sc10-turbine" options="-parameters" />
       <module name="sc11-zuul" options="-parameters" />
+      <module name="sc12-config" options="-parameters" />
     </option>
   </component>
 </project>
